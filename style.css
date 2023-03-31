@@ -1,0 +1,72 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+body {
+   background-color: azure;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clockcontainer {
+  background-color: azure;
+  background-image: url(clock.png);
+  background-size: cover;
+  background-position: center;
+  width: 50rem;
+  height: 50rem;
+  position: relative;
+  border-radius: 15%;
+}
+
+#hour,
+#minute,
+#second {
+  position: absolute;
+
+  border-radius: 1rem;
+  transform-origin: bottom;
+}
+
+#hour {
+  width: 0.7rem;
+  height: 14rem;
+  left: 24.8rem;
+  top: 11rem;
+  background-color: black;
+}
+
+#minute {
+  width: 0.45rem;
+  height: 16rem;
+  left: 24.92rem;
+  top: 9rem;
+  background-color: black;
+}
+
+#second {
+  width: 0.3rem;
+  height: 17rem;
+  left: 25rem;
+  top: 8rem;
+  background-color: #7c4c4b;
+}
+
+@media (max-width: 544px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 350px) {
+  html {
+    font-size: 20%;
+  }
+}
