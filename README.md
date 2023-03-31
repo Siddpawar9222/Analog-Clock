@@ -19,12 +19,14 @@ m = m/2 deg ;
 total rotation = 30h + m/2 deg;
 
 //-----------------------------------------------------------
+
 For minute hand
 60 min = 360 deg ;
 1 min = 6 deg ;
 for m minutes
 m = 6m deg ;
 total rotation = 6m deg;
+
 //----------------------------------------------
 
 For second hand
